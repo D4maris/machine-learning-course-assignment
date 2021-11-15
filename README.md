@@ -7,30 +7,30 @@ Farid Muhammad Eryanto
 
 Alternative Colaboratory Link :
 
-Week 1 - Decision Tree
+Week 1 - Decision Tree <br>
 Colaboratory link : <br>
 https://colab.research.google.com/drive/14BgALR131jJKIzbAYOaizrJqy--nPaEx?usp=sharing
 
-Week 2 - Linear Model
+Week 2 - Linear Model <br>
 Colaboratory link : <br>
 https://colab.research.google.com/drive/1dnAlEKGVvFGRkplFC4sGvhxtHVdTs9I7?usp=sharing
 
-Week 3 - KNN
+Week 3 - KNN <br>
 Colaboratory link : <br>
 https://colab.research.google.com/drive/1ceNHxlON0PM1R8pwLvEh0vSPcCbYRcSv?usp=sharing
 
-Week 4 - Plotting with seaborn
+Week 4 - Plotting with seaborn <br>
 Colaboratory link : <br>
 https://colab.research.google.com/drive/13i-skZDP18QpMHXmd157x-hW5eENc_L9?usp=sharing
 
-Week 5 - Dimensionality Reduction
+Week 5 - Dimensionality Reduction <br>
 Colaboratory link : <br>
 https://colab.research.google.com/drive/1L4GTB_-oPOGyB-G_9EFuVergvN4uJn5V?usp=sharing
 
-Week 6 - Data Clustering
+Week 6 - Data Clustering <br>
 Colaboratory link : <br>
 https://colab.research.google.com/drive/1vEuwOwUqWOUzjnDU_PKPHSlSHoEeZrLi?usp=sharing
 
-Week 7 - XGBoosting
+Week 7 - XGBoosting <br>
 Colaboratory link : <br>
 https://colab.research.google.com/drive/1gHs7li9XBIPm9t5pJ_6ePJf4DtKbeJTq?usp=sharing
