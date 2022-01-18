@@ -45,3 +45,9 @@ Scikit-learn : <br>
 https://colab.research.google.com/drive/1Ztk_9tPwH31FxXWPZXLrqsQ7M5G-lkbM?usp=sharing <br>
 
 Week 9 - MLP and NN <br>
+Chapter 3 : <br>
+https://colab.research.google.com/drive/10oI2jSQz4a01FJqtu737V4bd1aQskfk7?usp=sharing <br>
+Chapter 4 : <br>
+https://drive.google.com/file/d/1KH2q46nq3dAOgYGYOklw6Udx3tTy9E-a/view?usp=sharing 
+
+Week 10 - 
