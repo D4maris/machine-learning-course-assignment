@@ -40,8 +40,8 @@ https://colab.research.google.com/drive/1gHs7li9XBIPm9t5pJ_6ePJf4DtKbeJTq?usp=sh
 Week 8 - SVM <br>
 Colaboratory link : <br>
 Kaggle :
-https://colab.research.google.com/drive/1qCCWegnUgl2NI_vM5jGzLFG-x3_4ql0T?usp=sharing
-Scikit-learn :
-https://colab.research.google.com/drive/1Ztk_9tPwH31FxXWPZXLrqsQ7M5G-lkbM?usp=sharing
+https://colab.research.google.com/drive/1qCCWegnUgl2NI_vM5jGzLFG-x3_4ql0T?usp=sharing <br>
+Scikit-learn : <br>
+https://colab.research.google.com/drive/1Ztk_9tPwH31FxXWPZXLrqsQ7M5G-lkbM?usp=sharing <br>
 
 Week 9 
