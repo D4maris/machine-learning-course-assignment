@@ -21,6 +21,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
+from torchsummary import summary
 from PIL import Image #for image processing stuff
 from ema import EMA
 from datasets import MnistDataset #import class from datasets.py
