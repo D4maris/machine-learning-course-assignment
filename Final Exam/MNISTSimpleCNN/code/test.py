@@ -6,7 +6,7 @@ Farid Muhammad Eryanto - 1103181221
 These Codes are reproduced from following github repository :
 https://github.com/ansh941/MnistSimpleCNN
 
-These repository was created as final exam task for 
+This repository was created as final exam task for 
 Telkom University's Machine Learning G5 Subject
 =============================================================
 '''

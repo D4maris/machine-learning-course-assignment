@@ -6,7 +6,7 @@ Farid Muhammad Eryanto - 1103181221
 These Codes are reproduced from following github repository :
 https://github.com/ansh941/MnistSimpleCNN
 
-These repository was created as final exam task for 
+This repository was created as final exam task for 
 Telkom University's Machine Learning G5 Subject
 =============================================================
 '''
@@ -59,7 +59,7 @@ def run(p_seed=0, p_epochs=150, p_kernel_size=5, p_logdir="temp"):
     torch.manual_seed(SEED)
     torch.cuda.manual_seed_all(SEED)
     np.random.seed(SEED)
-    print("Check point 1")
+
     # kernel size of model --------------------------------------------------------#
     KERNEL_SIZE = p_kernel_size
 
@@ -74,7 +74,7 @@ def run(p_seed=0, p_epochs=150, p_kernel_size=5, p_logdir="temp"):
     OUTPUT_FILE = str("../logs/%s/log%03d.out"%(p_logdir,SEED))
     #create a variable to store model file path
     MODEL_FILE = str("../logs/%s/model%03d.pth"%(p_logdir,SEED))
-    print("Check point 2")
+    
 
     # enable GPU usage ------------------------------------------------------------#
     use_cuda = torch.cuda.is_available()
@@ -95,7 +95,7 @@ def run(p_seed=0, p_epochs=150, p_kernel_size=5, p_logdir="temp"):
     test_dataset = MnistDataset(training=False, transform=None)
     train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=120, shuffle=True)
     test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=100, shuffle=False)
-    print("Check point 3")
+    
 
     # model selection -------------------------------------------------------------#
     #select which kernel model we'd like to use
@@ -145,14 +145,14 @@ def run(p_seed=0, p_epochs=150, p_kernel_size=5, p_logdir="temp"):
             optimizer.step()
             g_step += 1
             ema(model, g_step)
-            #If the process is not 100% print these
+            #If the process is not 100% print this
             if batch_idx % 100 == 0:
                 print('Train Epoch: {} [{:05d}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
                     epoch, batch_idx * len(data), len(train_loader.dataset),
                     100. * batch_idx / len(train_loader), loss.item()))
         train_loss /= len(train_loader.dataset)
         train_accuracy = 100 * train_corr / len(train_loader.dataset)
-        print("Check point 4")
+        
         #--------------------------------------------------------------------------#
         # test process                                                             #
         #--------------------------------------------------------------------------#
@@ -194,7 +194,12 @@ def run(p_seed=0, p_epochs=150, p_kernel_size=5, p_logdir="temp"):
         # update learning rate scheduler                                           #
         #--------------------------------------------------------------------------#
         lr_scheduler.step()
-        print("Check point 5")
+
+        # For some reason the log only printed until GPU selection
+        # I'm running the program from cmd without any use of environment or jupyter notebook
+        # next i'm gonna test it on jupyter and run it from the ipynb (python notebook) file
+        # for the result go to main.ipynb
+        # log by Farid Eryanto
 
 if __name__ == "__main__":
     # Parse the argument input from the user
